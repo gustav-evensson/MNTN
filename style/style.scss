@@ -166,6 +166,7 @@ body {
             border: none;
             cursor: pointer;
             display: none;
+			pointer-events: none;
         }
 	}
 	main {
@@ -351,6 +352,7 @@ footer {
             }
             .menuBtn{
                 display: block;
+				pointer-events: all;
             }
         }
         main{
